@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="img/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <!-- ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Yoseph.dev &mdash; Front-end developer</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <!-- <img src="img/logo.png" alt="Yoseph.dev logo" /> -->
+        <p>
+          <a href="#" class="logo-link">joe<span>.dev</span> </a>
+        </p>
+      </div>
+
+      <nav class="header-nav">
+        <ul class="list">
+          <li class="list-item">
+            <a href="#aboutMe" class="header-link">About me</a>
+          </li>
+          <li class="list-item" class="myService">
+            <a href="#" class="header-link" id="service">My Services</a>
+          </li>
+          <li class="list-item"><a href="#" class="header-link">Resume</a></li>
+          <li class="list-item">
+            <a href="#" class="header-link">Portfolio</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="header-link header--cta">Contact me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero section">
+        <div class="hero">
+          <div class="hero-txt-box">
+            <h1 class="heading-primary">Hi! I'm Yoseph Wondu</h1>
+            <p class="hero-title">A Passionate Front-End Developer</p>
+
+            <ul class="list-social">
+              <li>
+                <a href="#"
+                  ><ion-icon name="logo-linkedin" class="social-icon"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><ion-icon name="logo-github" class="social-icon"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><ion-icon name="logo-twitter" class="social-icon"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-img-box">
+            <img
+              src="img/joe.jpg"
+              alt="head shot photo of Yoseph"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about section" id="aboutMe">
+        <div class="container grid grid--2-cols">
+          <div class="about-img-box">
+            <img
+              src="img/undraw_source_code_re_wd9m.svg"
+              data-src="img/undraw_source_code_re_wd9m.svg"
+              alt="head shot photo of Yoseph"
+              class="about-img lazy-img"
+            />
+          </div>
+
+          <div class="about">
+            <h2 class="heading-secondary">About me &#8628;</h2>
+            <p class="about-headline">
+              A front-end developer crafting modern, accessible websites.
+            </p>
+            <div class="horizontal-line"></div>
+            <p class="about-description">
+              With a strong foundation in HTML, CSS, JavaScript,React and
+              responsive design, I am passionate about crafting attractive and
+              modern websites. Despite being at the early stages of my
+              professional journey, I am eager to learn and grow in the field. I
+              am motivated by the opportunity to bring ideas to life and create
+              seamless user experiences. <br /><br />
+              I believe in designing websites that are not only visually
+              appealing but also intuitive and user-friendly, paying attention
+              to detail and ensuring optimal engagement across various devices.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-service container section" id="myService">
+        <div class="service">
+          <h2 class="heading-secondary handwritten">My services &#8628;</h2>
+          <div class="service-container">
+            <figure class="service-item">
+              <ion-icon
+                name="code-slash-outline"
+                class="service-icon"
+              ></ion-icon>
+              <h3 class="service-title">Web Development</h3>
+              <p class="service-description">
+                I create modern, user-friendly websites using core web
+                languages, and responsive design techniques.
+              </p>
+            </figure>
+            <figure class="service-item">
+              <ion-icon name="brush-outline" class="service-icon"></ion-icon>
+              <h3 class="service-title">Web Design</h3>
+              <p class="service-description">
+                I enjoy designing websites, all of which follow modern and
+                latest web design needs.
+              </p>
+            </figure>
+            <figure class="service-item">
+              <ion-icon name="expand-outline" class="service-icon"></ion-icon>
+              <h3 class="service-title">Fully Responsive</h3>
+              <p class="service-description">
+                I design my websites for every screen size available and I make
+                sure it looks great on every device.
+              </p>
+            </figure>
+            <figure class="service-item">
+              <ion-icon name="reader-outline" class="service-icon"></ion-icon>
+              <h3 class="service-title">Clean Code</h3>
+              <p class="service-description">
+                I write beautiful and clean codes to make them better readable
+                for any partner or client.
+              </p>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-resume section" id="resume">
+        <div class="resume">
+          <div class="container">
+            <p class="resume-title">View My resume</p>
+            <p class="resume-text">
+              Detailed resume can be downloaded right below
+            </p>
+            <a href="#" class="btn">Download Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-portfolio section" id="portfolio">
+        <div class="container">
+          <h2 class="heading-secondary">My Portfolio &#8628;</h2>
+          <p class="about-headline">
+            Each Project has its own unique features.
+          </p>
+          <div class="horizontal-line"></div>
+
+          <div class="card-container">
+            <div class="card">
+              <div class="card-img-container">
+                <img
+                  src="img/Bankist.png"
+                  data-src="img/Bankist.png"
+                  alt="A project called Global News Screenshot"
+                  class="card-img lazy-img"
+                />
+              </div>
+
+              <div class="card-text-container">
+                <h3 class="heading-tertiary">Global News 🗞️</h3>
+                <p class="card-text">
+                  Global News is a news website platform designed to provide
+                  users with the latest news and information from around the
+                  world.
+                </p>
+
+                <div class="languages-used">
+                  <span class="language">HTML</span>
+                  <span class="language">CSS</span>
+                  <span class="language">JS</span>
+                </div>
+
+                <ul class="card-links">
+                  <li>
+                    <a href="#" class="card-link">
+                      <span>Code</span
+                      ><ion-icon
+                        name="logo-github"
+                        class="social--card-icon"
+                      ></ion-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="card-link"
+                      ><span>Live Demo</span>
+                      <ion-icon
+                        name="open-outline"
+                        class="social--card-icon"
+                      ></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-text-container">
+                <h3 class="heading-tertiary">Today I Learned 🏫</h3>
+                <p class="card-text">
+                  Today I Learned is a reliable website with factual information
+                  on various subjects, including science, history, and politics.
+                  It's a trustworthy resource for people who want to expand
+                  their knowledge
+                </p>
+
+                <div class="languages-used">
+                  <span class="language">React</span>
+                </div>
+
+                <ul class="card-links">
+                  <li>
+                    <a href="#" class="card-link">
+                      <span>Code</span
+                      ><ion-icon
+                        name="logo-github"
+                        class="social--card-icon"
+                      ></ion-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="card-link"
+                      ><span>Live Demo</span>
+                      <ion-icon
+                        name="open-outline"
+                        class="social--card-icon"
+                      ></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="card-img-container">
+                <img
+                  src="img/Travel-list.png"
+                  data-src="img/Travel-list.png"
+                  alt="A project called Global News Screenshot"
+                  class="card-img lazy-img"
+                />
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img-container">
+                <img
+                  src="img/Eat-and-split.png"
+                  data-src="img/Eat-and-split.png"
+                  alt="A project called Global News Screenshot"
+                  class="card-img lazy-img"
+                />
+              </div>
+
+              <div class="card-text-container">
+                <h3 class="heading-tertiary">Omnifood 🍑</h3>
+                <p class="card-text">
+                  Omnifood uses AI to create custom meal plans based on users'
+                  food preferences and deliver them through partnerships with
+                  restaurants.
+                </p>
+
+                <div class="languages-used">
+                  <span class="language">HTML</span>
+                  <span class="language">CSS</span>
+                  <span class="language">JS</span>
+                </div>
+
+                <ul class="card-links">
+                  <li>
+                    <a href="#" class="card-link">
+                      <span>Code</span
+                      ><ion-icon
+                        name="logo-github"
+                        class="social--card-icon"
+                      ></ion-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="card-link"
+                      ><span>Live Demo</span>
+                      <ion-icon
+                        name="open-outline"
+                        class="social--card-icon"
+                      ></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-text-container">
+                <h3 class="heading-tertiary">Apple's Website Clone 🍎</h3>
+                <p class="card-text">
+                  Cloning Apple's website is a rewarding project that helps
+                  improve my skills. It offers a chance to learn from Apple's
+                  sleek design and intuitive navigation.
+                </p>
+
+                <div class="languages-used">
+                  <span class="language">HTML</span>
+                  <span class="language">Bootstrap</span>
+                </div>
+
+                <ul class="card-links">
+                  <li>
+                    <a href="#" class="card-link">
+                      <span>Code</span
+                      ><ion-icon
+                        name="logo-github"
+                        class="social--card-icon"
+                      ></ion-icon
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="card-link"
+                      ><span>Live Demo</span>
+                      <ion-icon
+                        name="open-outline"
+                        class="social--card-icon"
+                      ></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="card-img-container">
+                <img
+                  src="img/Screenshot 2023-08-08 111629.png"
+                  data-src="img/Screenshot 2023-08-08 111629.png"
+                  alt="A project called Global News Screenshot"
+                  class="card-img lazy-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-contact section">
+        <div class="container">
+          <h2 class="heading-secondary">Contact Me &#8628;</h2>
+          <p class="about-headline width-50">
+            I look forward to collaborate with you and turning your vision into
+            a reality.
+          </p>
+          <div class="horizontal-line"></div>
+
+          <div class="contact-grid">
+            <form action="#" class="contact-form">
+              <input
+                type="text"
+                placeholder="Name*"
+                name="full-name"
+                required
+              />
+
+              <input type="email" placeholder="Email*" name="email" required />
+
+              <textarea
+                name="messaage"
+                cols="30"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
+
+              <a href="#" class="btn contact--btn">Send</a>
+            </form>
+
+            <div class="contact-info-container">
+              <figure class="contact-info">
+                <ion-icon name="mail-outline" class="contact-icon"></ion-icon>
+                <div>
+                  <p class="info-title">Email:</p>
+                  <a href="mailto:Yosephwondu5@gmail.com" class="info-txt"
+                    >Yosephwondu5@gmail.com</a
+                  >
+                </div>
+              </figure>
+
+              <figure class="contact-info">
+                <ion-icon name="call-outline" class="contact-icon"></ion-icon>
+                <div>
+                  <p class="info-title">Phone:</p>
+                  <a href="mailto:Yosephwondu5@gmail.com" class="info-txt"
+                    >+251979045158</a
+                  >
+                </div>
+              </figure>
+
+              <figure class="contact-info">
+                <ion-icon
+                  name="location-outline"
+                  class="contact-icon"
+                ></ion-icon>
+                <div>
+                  <p class="info-title">Address:</p>
+                  <a class="info-txt">Addis Ababa, Ethiopia</a>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="container flex">
+          <div class="footer-left">
+            <div class="logo margin-bottom-sm">
+              <p>
+                <a href="#" class="logo-link footer--logo"
+                  >joe<span>.dev</span></a
+                >
+              </p>
+            </div>
+
+            <ul class="list-social">
+              <li>
+                <a href="#"
+                  ><ion-icon
+                    name="logo-linkedin"
+                    class="social-icon social-icon--footer"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><ion-icon
+                    name="logo-github"
+                    class="social-icon social-icon--footer"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><ion-icon
+                    name="logo-twitter"
+                    class="social-icon social-icon--footer"
+                  ></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-right">
+            <p class="copyright">Copyright &copy; 2024. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

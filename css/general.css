@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*****************************************/
+/*  GENERAL ELEMENTS */
+/*****************************************/
+
+.heading-primary,
+.heading-secondary {
+  font-family: cursive;
+}
+.heading-primary {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #e67e22;
+  letter-spacing: 1.4px;
+  margin-bottom: 2.4rem;
+}
